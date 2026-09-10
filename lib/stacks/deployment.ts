@@ -29,7 +29,7 @@ export class DeploymentStack extends cdk.Stack {
           },
           StringLike: {
             "token.actions.githubusercontent.com:sub": [
-              "repo:hyoaru@*/hyoaru.github.io@*:environment:*",
+              "repo:hyoaru/hyoaru.github.io:environment:*",
             ],
           },
         },
